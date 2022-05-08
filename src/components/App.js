@@ -3,6 +3,8 @@ import MovieList from './MovieList';
 import SearchBar from './SearchBar';
 import axios from 'axios';
 
+//Without dotenv package -> React supports environment variables since react-scripts@0.5.0 .You don't need external package to do that.
+
 class App extends React.Component {
   state = {
     movies: [],
